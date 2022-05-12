@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -677,7 +677,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17.4px;
+    font-weight: 600;
 }
 
 .tight-width-whitespace {
@@ -702,6 +703,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -736,7 +739,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -770,12 +773,13 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
+
+/*.bgc-atomic-tangerine {
     background-color: #F3976C;
-}
+}*/
 
 .tc-white {
-    color: #CCCD43!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
@@ -785,7 +789,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -809,9 +813,10 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+
+/*.bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
+}*/
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
@@ -924,7 +929,6 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
     .navbar.row {
@@ -939,14 +943,17 @@ h4 {
     }
     .nav>li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        border-bottom: 1px solid black;
+        background: #F3976C;
         text-align: left;
         padding-left: 15px;
         width: 100%;
     }
     .nav>li:hover {
-        background: rgba(0, 0, 0, .08);
+        opacity: 0.9;
+        background: #c27956;
+        transform: scale(1.02);
+        ;
     }
     .dropdown .dropdown a .caret {
         float: none;
@@ -1039,6 +1046,12 @@ h4 {
     }
 }
 
+.txt-col-sm-12 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #575757;
+}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
@@ -1049,6 +1062,19 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+.col-sm-666 {
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+@media (max-width: 1096px) and (min-width: 200px) {
+    .col-sm-666 {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
     }
 }
 
