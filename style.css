@@ -780,7 +780,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -840,8 +840,16 @@ h4 {
 }
 
 .modif {
+    font-size: 1.9rem;
+    padding: 0 5rem;
+    display: flex;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.modif-2 {
     font-size: 2rem;
-    padding: 0 9rem;
+    padding: 0 13rem;
     display: flex;
 }
 
